@@ -29,7 +29,7 @@ if(!target){
   return 1;
 }
 
-console.log('Running CORS PROXY for %s on %s for %s at %s', target, port, api, staticPath)
+console.log('Running CORS PROXY for %s on %s for %s at %s', target, port, api, staticPath);
 
 var server = http.createServer(function(req, res) {
   if (req.url.indexOf(api) !== -1) {
