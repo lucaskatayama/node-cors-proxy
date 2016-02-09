@@ -1,0 +1,37 @@
+{
+  "name": "node-cors-proxy",
+  "version": "1.0.0",
+  "description": "A proxy server to get rid of CORS while developing for external API's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaskatayama/node-cors-proxy.git"
+  },
+  "keywords": [
+    "cors",
+    "nodejs",
+    "proxy"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "cors-proxy": "./bin/cors-proxy.js"
+  },
+  "author": "Lucas Katayama <lucaskatayama@gmail.com> (http://www.lucaskatayama.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaskatayama/node-cors-proxy/issues"
+  },
+  "homepage": "https://github.com/lucaskatayama/node-cors-proxy#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "finalhandler": "^0.4.1",
+    "http-proxy": "^1.13.1",
+    "serve-static": "^1.10.2"
+  }
+}
