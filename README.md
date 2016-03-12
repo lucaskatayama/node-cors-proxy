@@ -1,5 +1,9 @@
-# node-cors-proxy
+# Node CORS Proxy
 A proxy server to get rid of CORS while developing for external API's
+
+## Use case
+I was developing a AngularJS Front-End App that was pointing to a remote API.
+Then I needed to get rid of CORS by making a proxy server for API and a local server for webapp.
 
 
 ```shellscript
