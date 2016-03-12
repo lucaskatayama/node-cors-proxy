@@ -1,6 +1,6 @@
 {
   "name": "node-cors-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A proxy server to get rid of CORS while developing for external API's",
   "main": "index.js",
   "scripts": {
